@@ -11,13 +11,21 @@ export class CriarPensamentoComponent implements OnInit {
     id: '1',
     conteudo: 'Aprendendo Angular',
     autoria: 'Dev',
-    modelo: ''
+    modelo: 'modelo1'
   }
 
   constructor () {}
 
   ngOnInit(): void {
     // throw new Error('Method not implemented.');
+  }
+
+  criarPensamento () {
+    console.log('pensamento criado :)');
+  }
+
+  cancelar () {
+    console.log('cancelado!');
   }
 
 }
