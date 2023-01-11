@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Pensamento } from '../pensamento';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-listar-pensamentos',
@@ -7,17 +9,17 @@ import { Component } from '@angular/core';
 })
 export class ListarPensamentosComponent {
 
-  listaPensamentos = [
-    {
-      conteudo: 'Passo informações para o componente filho',
-      autoria: 'Componente pai',
-      modelo: 'modelo3'
-    },
-    {
-      conteudo: 'Minha propriedade é decorada com @Input()',
-      autoria: 'Componente filho',
-      modelo: 'modelo2'
-    }
-  ];
+  listaPensamentos: Array<Pensamento> = [];
+
+  constructor(private service: PensamentoService) {
+
+  }
+
+  // Sempre que esse componente for carregado o ngOnInit será executado.
+  ngOnInit(): void {
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos;
+    });
+  }
 
 }
