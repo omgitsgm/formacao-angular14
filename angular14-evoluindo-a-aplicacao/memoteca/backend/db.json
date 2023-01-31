@@ -1,0 +1,109 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que você veio.",
+      "autoria": "Nay",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 2,
+      "conteudo": "Então esse é o poder do Angular? :O.",
+      "autoria": "Gabriel",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 3,
+      "conteudo": "Olha o gol do Romarinhoooooooo!",
+      "autoria": "Cléber Machado",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 4,
+      "conteudo": "Isso é um teste",
+      "autoria": "- Teste",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 5,
+      "conteudo": "Way Back",
+      "autoria": "SKRILLEX",
+      "modelo": "modelo1",
+      "favorito": true
+    },
+    {
+      "id": 6,
+      "conteudo": "Trabalhar no sol is good",
+      "autoria": "Gabriel, the intern",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 7,
+      "conteudo": "Abracadabra!",
+      "autoria": "Eu",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 8,
+      "conteudo": "HAHAHAHAH",
+      "autoria": "Coringa",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 9,
+      "conteudo": "This is a Pensamento",
+      "autoria": "Pensador",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 10,
+      "conteudo": "teste",
+      "autoria": "teste",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 11,
+      "conteudo": "É mais ou menos isso.",
+      "autoria": "GABRIEL",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 12,
+      "conteudo": "Teste",
+      "autoria": "UM TESTE",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 13,
+      "conteudo": "outro teste",
+      "autoria": "TESTADOR",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 14,
+      "conteudo": "Don't Leave Me Like This",
+      "autoria": "SKRILLEX",
+      "modelo": "modelo3",
+      "favorito": true
+    },
+    {
+      "conteudo": "Rumble",
+      "autoria": "SKRILLEX",
+      "modelo": "modelo2",
+      "favorito": true,
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Como aplicar validação com formulários reativos no Angular:
+https://www.alura.com.br/artigos/como-aplicar-validacao-formularios-reativos-angular
+
+Criando uma expressão regular que valida um input apenas com letras maiúsculas:
+https://stackoverflow.com/questions/6290173/regex-pattern-for-capital-letters-and-numbers-only-with-possible-list
